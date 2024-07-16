@@ -1,0 +1,32 @@
+﻿<Window x:Class="ClassExampleFIRSTWpfProfile.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClassExampleFIRSTWpfProfile"
+        mc:Ignorable="d"
+        Title="Register" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/image3.jpeg"/>
+        </Grid.Background>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="66,71,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="NameBox" HorizontalAlignment="Left" Margin="190,75,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="NameBox_TextChanged_1" />
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="67,107,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="lastNameBox" HorizontalAlignment="Left" Margin="190,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" />
+        <Label Content="username" HorizontalAlignment="Left" Margin="66,142,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="67,182,0,0" VerticalAlignment="Top"/>
+        <Label Content="ConfirmPassword" HorizontalAlignment="Left" Margin="60,221,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="emailBox" HorizontalAlignment="Left" Margin="190,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="67,256,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="addressTextBox" HorizontalAlignment="Left" Margin="184,260,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="submit" HorizontalAlignment="Left" Margin="67,307,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="cancel" HorizontalAlignment="Left" Margin="156,307,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="196,182,0,0" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="confirmPassword" HorizontalAlignment="Left" Margin="190,221,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="loginButton" Content="Login" HorizontalAlignment="Left" Margin="67,10,0,0" VerticalAlignment="Top" Click="loginButton_Click"/>
+        <Button x:Name="Home_button" Content="Home" HorizontalAlignment="Left" Margin="144,15,0,0" VerticalAlignment="Top"/>
+        <Button Content="View Data" HorizontalAlignment="Left" Margin="230,15,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
